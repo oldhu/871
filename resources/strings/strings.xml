@@ -1,0 +1,14 @@
+<strings>
+    <string id="AppName">PKU100871</string>
+    <string id="ClockAltColorTitle">Clock Alternative Color</string>
+    <string id="LogoFillColorTitle">Logo Fill Up Color</string>
+    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="UseChineseLogoTitle">Use Chinese Logo(BA QI YAO)</string>
+    <string id="UseLocalizedDateFormatTitle">Use Localized Month/Weekday names</string>
+
+    <string id="ColorWhite">White</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorPink">Pink</string>
+    <string id="ColorPKURed">PKU Red</string>
+</strings>

@@ -1,0 +1,35 @@
+<settings>
+
+    <setting propertyKey="@Properties.ClockAltColor" title="@Strings.ClockAltColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x8B0012">@Strings.ColorPKURed</listEntry>
+            <listEntry value="0x00AAFF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.LogoFillColor" title="@Strings.LogoFillColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x8B0012">@Strings.ColorPKURed</listEntry>
+            <listEntry value="0x00AAFF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.UseChineseLogo" title="@Strings.UseChineseLogoTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.UseLocalizedDateFormat" title="@Strings.UseLocalizedDateFormatTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+</settings>

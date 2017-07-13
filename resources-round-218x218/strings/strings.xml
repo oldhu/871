@@ -1,0 +1,9 @@
+<strings>
+    <string id="LogoLeft">45</string>
+    <string id="LogoTop">152</string>
+    <string id="LogoWidth">128</string>
+    <string id="LogoHeight">66</string>
+    <string id="TimeTop">115</string>
+    <string id="DateTop">8</string>
+    <string id="BatteryTop">50</string>
+</strings>
