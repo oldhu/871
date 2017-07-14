@@ -5,6 +5,7 @@
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
     <string id="UseChineseLogoTitle">Use Chinese Logo(BA QI YAO)</string>
     <string id="UseLocalizedDateFormatTitle">Use Localized Month/Weekday names</string>
+    <string id="ShowPhoneConnectivityTitle">Show Phone Connectivity</string>
 
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>

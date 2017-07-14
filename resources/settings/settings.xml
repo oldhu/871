@@ -32,4 +32,8 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.ShowPhoneConnectivity" title="@Strings.ShowPhoneConnectivityTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
 </settings>
