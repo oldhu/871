@@ -53,12 +53,6 @@ class WatchTwoView extends Ui.WatchFace {
         self.bluetoothImage = Ui.loadResource(Rez.Drawables.Bluetooth);
         self.noBluetoothImage = Ui.loadResource(Rez.Drawables.NoBluetooth);
 
-        if (Rez.Strings has :Device && Ui.loadResource(Rez.Strings.Device).equals("fr920xt")) {
-            self.isFR920XT = true;
-            self.timeFont = Gfx.FONT_SYSTEM_NUMBER_THAI_HOT; // 920xt cannot use custom font
-        } else {
-            self.timeFont = Ui.loadResource(Rez.Fonts.Font);            
-        }
     }
 
     function initialize() {
@@ -66,6 +60,19 @@ class WatchTwoView extends Ui.WatchFace {
     }
 
     function onShow() {
+    }
+
+    function selectFont() {
+        if (Rez.Strings has :Device && Ui.loadResource(Rez.Strings.Device).equals("fr920xt")) {
+            self.isFR920XT = true;
+            self.timeFont = Gfx.FONT_SYSTEM_NUMBER_THAI_HOT; // 920xt cannot use custom font
+        } else {
+            if (App.getApp().getProperty("UseHandwrittenTimeFont")) {
+                self.timeFont = Ui.loadResource(Rez.Fonts.Overdose);
+            } else {
+                self.timeFont = Ui.loadResource(Rez.Fonts.Font);
+            }
+        }
     }
 
     function getDateString() {
@@ -278,6 +285,8 @@ class WatchTwoView extends Ui.WatchFace {
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
+
+        self.selectFont();
         
         drawTime(dc);
         if (self.isFR920XT) {

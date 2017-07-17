@@ -6,10 +6,13 @@
     <string id="UseChineseLogoTitle">Use Chinese Logo(BA QI YAO)</string>
     <string id="UseLocalizedDateFormatTitle">Use Localized Month/Weekday Names</string>
     <string id="ShowPhoneConnectivityTitle">Show Phone Connectivity</string>
+    <string id="UseHandwrittenTimeFontTitle">Use Handwritten Font for Time</string>
 
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
     <string id="ColorGreen">Green</string>
     <string id="ColorPink">Pink</string>
     <string id="ColorPKURed">PKU Red</string>
+    <string id="ColorOrange">Orange</string>
+    <string id="ColorYellow">Yellow</string>
 </strings>

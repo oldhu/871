@@ -7,6 +7,8 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0xFF5500">@Strings.ColorOrange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
 
@@ -17,6 +19,8 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0xFF5500">@Strings.ColorOrange</listEntry>
+            <listEntry value="0xFFAA00">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
 
@@ -33,6 +37,10 @@
     </setting>
 
     <setting propertyKey="@Properties.ShowPhoneConnectivity" title="@Strings.ShowPhoneConnectivityTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.UseHandwrittenTimeFont" title="@Strings.UseHandwrittenTimeFontTitle">
         <settingConfig type="boolean" />
     </setting>
 

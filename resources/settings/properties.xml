@@ -5,4 +5,5 @@
     <property id="UseChineseLogo" type="boolean">false</property>
     <property id="UseLocalizedDateFormat" type="boolean">false</property>
     <property id="ShowPhoneConnectivity" type="boolean">false</property>
+    <property id="UseHandwrittenTimeFont" type="boolean">false</property>
 </properties>
